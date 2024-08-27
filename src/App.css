@@ -1,38 +1,213 @@
-.App {
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+ background-color: rgb(246, 235, 220);
+}
+
+.right {
+  right: 0;
+  /* background-color: aquamarine; */
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.centered img {
+  width: 250px;
+  border-radius: 50%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.title {
+  color: grey;
+  font-size: 40px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.objective {
+  padding-left: 3rem;
+}
+
+.title-hellow {
+  font-size: 5rem;
+}
+
+.title-p {
+  font-size: 2rem;
+}
+
+.objective-description {
+  font-size: 1.5rem;
+}
+
+.objective-button {
+  display: flex;
+  gap: 1rem;
+}
+
+.objective-button-resume {
+  background-color: #366ff4;
+  border-radius: 12px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.objective-button-contact {
+  background-color: #366ff4;
+  border-radius: 12px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.split-work {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left-work {
+  left: 0;
+ background-color: rgb(246, 235, 220);
+}
+
+.right-work {
+  right: 0;
+  
+}
+
+.work-title {
+  color: grey;
+  font-size: 30px;
+  text-align: center;
+}
+
+.work-description-points {
+  list-style-type: none;
+  font-size: 1.5rem;
+  padding-left: 1rem;
+  margin-left: 1rem;
+  line-height: 2rem;
+  margin: 1rem;
+  color: cadetblue;
+  margin-right: 1rem;
+  background-color: white;
+  border-radius: 12px;
+}
+
+.work-title-experience {
+  color: lightcoral;
+  font-size: 20px;
+  text-align: center;
+}
+
+.city-icon {
+  /* color: #366ff4; */
+  font-size: 40px;
+  margin-right: 10px;
+}
+
+.hashtag-icon {
+ margin-right: 1rem;
+ color: black;
+}
+
+.project-title {
+  text-align: end;
+  color: #7f8081;
+  text-decoration: underline;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.card {
+  margin: 2rem;
+  padding: 2rem;
+  background-color: rgb(199, 220, 253);
+  border-radius: 12px;
+}
+
+.project-description {
+  font-size: 1.5rem;
+  margin: 1rem;
+  padding: 1rem;
+  line-height: 2rem;
+  color: cadetblue;
+  
+}
+
+.project-button {
+  /* align-items: end; */
+  text-align: end;
+  padding-right: 2rem;
+  /* background-color: #090909; */
+}
+
+.card-container {
+  text-align: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 1rem;
 }
 
-.App-link {
-  color: #61dafb;
+.card-2 {
+  margin: 2rem;
+  padding: 2rem;
+  background-color: rgb(199, 220, 253);
+  border-radius: 12px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card-title {
+  text-align: center;
+  color: #7f8081;
+  text-decoration: underline;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.card-title-2 {
+  text-align: center;
+  color: #7f8081;
+  text-decoration: underline;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.card-description {
+  font-size: 1.5rem;
+  margin: 1rem;
+  padding: 1rem;
+  line-height: 2rem;
+  color: cadetblue;
+  
 }
